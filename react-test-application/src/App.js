@@ -4,16 +4,32 @@ function App() {
   return (
     <div>
       <header>
-        <p>
+        <h1 class="title">
           Test React Application
-        </p>
+        </h1>
       </header>
 
-      <div class="outer">
-        <div class="card">
-          <h2>Title</h2>
+      <body>
+        <div class="outer">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+              <h2>Title</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+              <h2>Title</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+              <h2>Title</h2>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </body>
 
     </div>
   );
