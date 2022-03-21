@@ -14,20 +14,23 @@ function App() {
           <div class="row">
             <div class="column">
               <div class="card">
-              <h2>Title</h2>
+              <h2>Card 1</h2>
               </div>
             </div>
             <div class="column">
               <div class="card">
-              <h2>Title</h2>
+              <h2>Card 2</h2>
               </div>
             </div>
             <div class="column">
               <div class="card">
-              <h2>Title</h2>
+              <h2>Card 3</h2>
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <p>This is a paragraph.</p>
         </div>
       </body>
 
